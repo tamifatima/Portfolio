@@ -23,7 +23,7 @@ export const PERSONAL = {
   linkedin: 'https://www.linkedin.com/in/tahreem-fatima-3b1290294?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
   stats: [
     { num: '3.74', label: 'CGPA' },
-    { num: '3+', label: 'Projects' },
+    { num: '10+', label: 'Projects' },
     { num: '5+', label: 'Awards' },
     { num: '2', label: 'TA Roles' },
   ],
