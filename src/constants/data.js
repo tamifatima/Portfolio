@@ -89,6 +89,16 @@ export const PROJECTS = [
     github: 'https://github.com/tamifatima/Human-Acitivty-Recognition-Ml-Project.git',
     demo: '#',
   },
+  {
+    num: '04',
+    title: 'OUTS — Smart Event Ticketing & Reservation Platform',
+    emoji: '🎫',
+    gradient: 'from-cyan-500 to-purple-600',
+    description: 'Android app for event discovery, booking, host management, and admin moderation with role-based authentication, real-time Firebase synchronization, QR-based digital tickets, and analytics dashboard.',
+    stack: ['Kotlin', 'Jetpack Compose', 'Firebase Auth', 'Firestore', 'Realtime Database', 'Material Design 3'],
+    github: 'https://github.com/tamifatima/OUTS-Smart-Event-Ticketing-Reservation-Platform.git',
+    demo: '#',
+  },
 ]
 
 export const EXPERIENCE = [
