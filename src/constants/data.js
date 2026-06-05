@@ -99,6 +99,16 @@ export const PROJECTS = [
     github: 'https://github.com/tamifatima/OUTS-Smart-Event-Ticketing-Reservation-Platform.git',
     demo: '#',
   },
+  {
+    num: '05',
+    title: 'AI Online Quiz & Assessment System',
+    emoji: '🧠',
+    gradient: 'from-yellow-500 to-orange-600',
+    description: 'Intelligent quiz and assessment platform with AI-powered question generation, automated grading, instant feedback, and full project management contributions for planning, risk mitigation, and sprint delivery.',
+    stack: ['React 19', 'TypeScript', 'Supabase', 'PostgreSQL', 'Google Gemini AI', 'Tailwind CSS'],
+    github: 'https://github.com/tamifatima/Quiz-Assessment-SPM.git',
+    demo: '#',
+  },
 ]
 
 export const EXPERIENCE = [
