@@ -67,7 +67,7 @@ export const PROJECTS = [
     description: 'Full-stack web application for managing Hijama clinic appointments with secure authentication, role-based authorization, real-time notifications, patient booking system, and admin dashboard with real-time statistics.',
     stack: ['ASP.NET Core MVC', 'Entity Framework Core', 'SQL Server', 'SignalR', 'Identity'],
     github: 'https://github.com/tamifatima/Al-Hijama-Medical-Centre.git',
-    demo: '#',
+    demo: 'https://al-hijama-medical-centre-2-u7yl.vercel.app/',
   },
   {
     num: '02',
