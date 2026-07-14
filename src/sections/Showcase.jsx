@@ -76,18 +76,6 @@ const PROJECTS = [
     image: null,
     features: ['AI Quiz Flow', 'Mobile UX', 'Personalized Learning', 'Interactive UI'],
   },
-  {
-    id: 'farm-research',
-    title: 'Farm Management SaaS — UX Research Board',
-    subtitle: 'FigJam Board · User Research & Product Thinking',
-    desc: 'A detailed FigJam exploration for a farm management SaaS tool, structured around user research insights, workflow mapping, and product experience planning.',
-    badge: 'FigJam · Research',
-    accent: 'purple',
-    tags: ['UX Research', 'FigJam', 'SaaS', 'Product Design'],
-    figmaUrl: 'https://www.figma.com/board/n3Uu1BmrPZVxeMeqiKNG80/Tahreem-s-Workspace?node-id=0-1&t=TeaJNCg2PynsWTg0-1',
-    image: null,
-    features: ['User Research', 'Workflow Mapping', 'SaaS Planning', 'Product Insight'],
-  },
 ]
 
 const accentMap = {
