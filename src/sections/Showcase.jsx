@@ -5,6 +5,18 @@ import SectionHeader from '../components/ui/SectionHeader'
 
 const PROJECTS = [
   {
+    id: 'feediq',
+    title: 'FEEDIQ — Premium Redesign Concept',
+    subtitle: 'UI/UX Redesign · Premium Product Experience',
+    desc: 'A polished FEEDIQ redesign focused on a premium visual language, refined interactions, and modern motion storytelling. The concept blends bold hierarchy, elegant components, and a sophisticated product feel designed to elevate brand perception and user delight.',
+    badge: 'Figma · Premium UI',
+    accent: 'blue',
+    tags: ['Product Redesign', 'Premium UI', 'Motion Design', 'Figma'],
+    figmaUrl: 'https://www.figma.com/design/PB1sesikbCJ1EQlAB6L3Az/FEEDIQ?node-id=0-1&t=O8GalgnSpngs3OFx-1',
+    image: null,
+    features: ['Premium Aesthetic', 'Modern Motion', 'Refined UX', 'Visual Hierarchy'],
+  },
+  {
     id: 'outs',
     title: 'OUTS — Social Ticketing & Event Platform',
     subtitle: 'Mobile App · SOFTEC UI/UX Competition Entry',
@@ -108,6 +120,16 @@ const accentMap = {
     btn: 'bg-gradient-to-r from-cyan to-blue shadow-[0_4px_20px_rgba(6,182,212,0.4)]',
     featureDot: 'bg-cyan',
     mockupBg: 'from-cyan/30 via-blue/20 to-cyan/10',
+  },
+  blue: {
+    border: 'hover:border-blue/50',
+    shadow: 'hover:shadow-[0_20px_60px_rgba(59,130,246,0.18)]',
+    badge: 'bg-blue/10 border-blue/30 text-blue',
+    tag: 'bg-blue/10 border-blue/20 text-blue',
+    glow: 'from-blue/20 to-purple/20',
+    btn: 'bg-gradient-to-r from-blue to-purple shadow-[0_4px_20px_rgba(59,130,246,0.4)]',
+    featureDot: 'bg-blue',
+    mockupBg: 'from-blue/30 via-purple/20 to-cyan/10',
   },
 }
 

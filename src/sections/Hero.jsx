@@ -90,8 +90,11 @@ const Hero = () => {
         <p className="text-slate-300 text-lg sm:text-xl md:text-2xl mb-4 font-light">
           Software Engineer · Full-Stack Developer · UI/UX Designer
         </p>
-        <p className="text-slate-400 max-w-xl mx-auto mb-10 text-sm sm:text-base leading-relaxed">
+        <p className="text-slate-400 max-w-xl mx-auto mb-3 text-sm sm:text-base leading-relaxed">
           {PERSONAL.tagline}
+        </p>
+        <p className="text-slate-500 max-w-2xl mx-auto mb-10 text-sm sm:text-base leading-relaxed">
+          To explore my UI/UX work, head to the Design section below.
         </p>
       </div>
 
@@ -145,7 +148,7 @@ const Hero = () => {
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 1.4 }}
-        className="fixed left-6 bottom-1/3 flex flex-col items-center gap-4 hidden lg:flex"
+        className="fixed left-6 bottom-1/3 hidden lg:flex lg:flex-col items-center gap-4"
       >
         <div className="w-px h-16 bg-gradient-to-t from-purple to-transparent" />
         <a href={`mailto:${PERSONAL.email}`}
